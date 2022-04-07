@@ -1,0 +1,68 @@
+header{
+    background-image: url("images/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+nav>a{
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+h1{
+    display: inline-block;
+}
+header>img{
+    width: 15rem;
+}
+.aboutme img{
+    max-width: calc(100% - 1rem);
+    padding: 0 .5rem;
+}
+.gallery img{
+    max-width: calc(100% - 1rem);
+    padding: 0 .5rem;
+}
+div{
+    padding: 0 0 .5rem 0;
+}
+section>h2{
+    text-align: center;
+    background-size: cover;
+}
+nav>a:hover{
+    text-decoration: underline;
+    border: 2px solid;
+}
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutme p{
+    padding: 0 1rem;
+}
+nav{
+    text-align: center;
+    flex-basis: 100%;
+}
+@media (min-width:1000px){
+    .aboutme div{
+        width: 45%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .aboutme img{
+        width: 40rem;
+    }
+    .aboutme{
+        max-width: 70%;
+        margin: auto;
+    }
+}
